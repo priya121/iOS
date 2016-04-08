@@ -1,9 +1,14 @@
 import UIKit
 
-class ViewController: UIViewController {
+public class ViewController: UIViewController {
 
     @IBOutlet weak var numberToFactorTextField: UITextField!
-    @IBOutlet weak var primes: UILabel!
+    @IBOutlet weak public var primes: UILabel!
+
+    public override func viewDidLoad() {
+        super.viewDidLoad()
+        primes.text = ""
+    }
 
     @IBAction func generatePrimes() {
         print("generatePrimes: \(numberToFactorTextField.text)")
