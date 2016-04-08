@@ -7,12 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07172AF81CB8394000759807 /* FooSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07172AF71CB8394000759807 /* FooSpec.swift */; };
 		07CD45751CB8354700CDAEC8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CD45741CB8354700CDAEC8 /* AppDelegate.swift */; };
 		07CD45771CB8354700CDAEC8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CD45761CB8354700CDAEC8 /* ViewController.swift */; };
 		07CD457A1CB8354700CDAEC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07CD45781CB8354700CDAEC8 /* Main.storyboard */; };
 		07CD457C1CB8354700CDAEC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07CD457B1CB8354700CDAEC8 /* Assets.xcassets */; };
 		07CD457F1CB8354700CDAEC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07CD457D1CB8354700CDAEC8 /* LaunchScreen.storyboard */; };
-		07CD458A1CB8354700CDAEC8 /* PrimeFactorsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CD45891CB8354700CDAEC8 /* PrimeFactorsTests.swift */; };
+		C5377C5164584D595EAFCAE5 /* Pods_PrimeFactorsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9B46B022B335F8D278BCF9D /* Pods_PrimeFactorsTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07172AF71CB8394000759807 /* FooSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FooSpec.swift; sourceTree = "<group>"; };
 		07CD45711CB8354700CDAEC8 /* PrimeFactors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrimeFactors.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07CD45741CB8354700CDAEC8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		07CD45761CB8354700CDAEC8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -34,8 +36,10 @@
 		07CD457E1CB8354700CDAEC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		07CD45801CB8354700CDAEC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		07CD45851CB8354700CDAEC8 /* PrimeFactorsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrimeFactorsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		07CD45891CB8354700CDAEC8 /* PrimeFactorsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimeFactorsTests.swift; sourceTree = "<group>"; };
 		07CD458B1CB8354700CDAEC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48063764DC14FCAB2F710D4F /* Pods-PrimeFactorsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrimeFactorsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PrimeFactorsTests/Pods-PrimeFactorsTests.release.xcconfig"; sourceTree = "<group>"; };
+		70272AC2965A68048EC0FAFC /* Pods-PrimeFactorsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrimeFactorsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PrimeFactorsTests/Pods-PrimeFactorsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E9B46B022B335F8D278BCF9D /* Pods_PrimeFactorsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PrimeFactorsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5377C5164584D595EAFCAE5 /* Pods_PrimeFactorsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +67,8 @@
 				07CD45731CB8354700CDAEC8 /* PrimeFactors */,
 				07CD45881CB8354700CDAEC8 /* PrimeFactorsTests */,
 				07CD45721CB8354700CDAEC8 /* Products */,
+				12DA44D9CD5BF0329D272594 /* Pods */,
+				854291837157FE615C13EF0F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -90,10 +97,27 @@
 		07CD45881CB8354700CDAEC8 /* PrimeFactorsTests */ = {
 			isa = PBXGroup;
 			children = (
-				07CD45891CB8354700CDAEC8 /* PrimeFactorsTests.swift */,
 				07CD458B1CB8354700CDAEC8 /* Info.plist */,
+				07172AF71CB8394000759807 /* FooSpec.swift */,
 			);
 			path = PrimeFactorsTests;
+			sourceTree = "<group>";
+		};
+		12DA44D9CD5BF0329D272594 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				70272AC2965A68048EC0FAFC /* Pods-PrimeFactorsTests.debug.xcconfig */,
+				48063764DC14FCAB2F710D4F /* Pods-PrimeFactorsTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		854291837157FE615C13EF0F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E9B46B022B335F8D278BCF9D /* Pods_PrimeFactorsTests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,9 +144,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 07CD45911CB8354700CDAEC8 /* Build configuration list for PBXNativeTarget "PrimeFactorsTests" */;
 			buildPhases = (
+				A15A430BA370EFF8EFE128E2 /* Check Pods Manifest.lock */,
 				07CD45811CB8354700CDAEC8 /* Sources */,
 				07CD45821CB8354700CDAEC8 /* Frameworks */,
 				07CD45831CB8354700CDAEC8 /* Resources */,
+				2B3F4C35FC579185D5CEFFC1 /* Embed Pods Frameworks */,
+				577E2A963FED51DD628CD957 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -192,6 +219,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2B3F4C35FC579185D5CEFFC1 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PrimeFactorsTests/Pods-PrimeFactorsTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		577E2A963FED51DD628CD957 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PrimeFactorsTests/Pods-PrimeFactorsTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A15A430BA370EFF8EFE128E2 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		07CD456D1CB8354700CDAEC8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -206,7 +281,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07CD458A1CB8354700CDAEC8 /* PrimeFactorsTests.swift in Sources */,
+				07172AF81CB8394000759807 /* FooSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,6 +422,7 @@
 		};
 		07CD45921CB8354700CDAEC8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70272AC2965A68048EC0FAFC /* Pods-PrimeFactorsTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = PrimeFactorsTests/Info.plist;
@@ -359,6 +435,7 @@
 		};
 		07CD45931CB8354700CDAEC8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48063764DC14FCAB2F710D4F /* Pods-PrimeFactorsTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = PrimeFactorsTests/Info.plist;
@@ -388,6 +465,7 @@
 				07CD45901CB8354700CDAEC8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		07CD45911CB8354700CDAEC8 /* Build configuration list for PBXNativeTarget "PrimeFactorsTests" */ = {
 			isa = XCConfigurationList;
@@ -396,6 +474,7 @@
 				07CD45931CB8354700CDAEC8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
