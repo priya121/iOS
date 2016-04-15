@@ -17,5 +17,20 @@ class ViewControllerSpec: QuickSpec {
                 expect(primes.text).to(equal(""))
             }
         }
+
+        describe("Generating prime factors") {
+            it("displays the results in a label") {
+                let primes = UILabel()
+                let numberInput = UITextField()
+                let controller = ViewController()
+                controller.primes = primes
+                controller.numberToFactorTextField = numberInput
+                numberInput.text = "\(2*2*3*5)"
+
+                controller.generatePrimes()
+
+                expect(primes.text).to(equal("2, 2, 3, 5"))
+            }
+        }
     }
 }
