@@ -1,20 +1,25 @@
+//
+//  ViewController.swift
+//  PrimeFactors
+//
+//  Created by Eric Meyer on 6/3/16.
+//  Copyright © 2016 Eric Meyer. All rights reserved.
+//
+
 import UIKit
 
-public class ViewController: UIViewController {
-
-    @IBOutlet weak public var numberToFactorTextField: UITextField!
-    @IBOutlet weak public var primes: UILabel!
-
-    public override func viewDidLoad() {
+class ViewController: UIViewController {
+    
+    override func viewDidLoad() {
         super.viewDidLoad()
-        primes.text = ""
+        // Do any additional setup after loading the view, typically from a nib.
     }
-
-    @IBAction public func generatePrimes() {
-        if let number: Int = Int(numberToFactorTextField.text!) {
-            primes.text = PrimeFactors.generate(number).map { "\($0)" }.joinWithSeparator(", ")
-
-        }
+    
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
     }
-
+    
+    
 }
+
