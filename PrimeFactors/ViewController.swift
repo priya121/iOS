@@ -1,24 +1,17 @@
-//
-//  ViewController.swift
-//  PrimeFactors
-//
-//  Created by Eric Meyer on 6/3/16.
-//  Copyright © 2016 Eric Meyer. All rights reserved.
-//
 
 import UIKit
 
-class ViewController: UIViewController {
+public class ViewController: UIViewController {
     
-    override func viewDidLoad() {
+    @IBOutlet weak public var myLabel: UILabel!
+
+
+    public override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        myLabel.text = "0"
     }
     
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
+  
     
     
 }
