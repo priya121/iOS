@@ -17,21 +17,26 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7fL-Cy-FHT">
-                                <rect key="frame" x="300" y="43" width="55" height="30"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="obn-Ih-CcZ">
+                                <rect key="frame" x="295" y="35" width="11" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7fL-Cy-FHT">
+                                <rect key="frame" x="273" y="58" width="55" height="30"/>
                                 <state key="normal" title="ClickMe"/>
                                 <connections>
                                     <action selector="doSomething" destination="BYZ-38-t0r" eventType="touchUpInside" id="yPK-Lt-dMX"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="obn-Ih-CcZ">
-                                <rect key="frame" x="322" y="20" width="11" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="obn-Ih-CcZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="2Q3-tY-uK7"/>
+                            <constraint firstItem="7fL-Cy-FHT" firstAttribute="top" secondItem="obn-Ih-CcZ" secondAttribute="bottom" constant="8" id="9n0-OH-81g"/>
+                            <constraint firstItem="7fL-Cy-FHT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dFN-fR-XbI"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="myLabel" destination="obn-Ih-CcZ" id="dhE-gw-Nfq"/>
@@ -39,7 +44,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="343" y="378"/>
+            <point key="canvasLocation" x="365" y="362"/>
         </scene>
     </scenes>
 </document>
