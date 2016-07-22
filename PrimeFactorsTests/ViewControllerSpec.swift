@@ -15,6 +15,15 @@ class ViewControllerSpec: QuickSpec {
                 expect(controller.myLabel.text).to(equal("0"))
                 
             }
+            it("increments the counter") {
+                let controller = ViewController()
+                let label = UILabel()
+                
+                controller.myLabel = label
+                controller.viewDidLoad()
+                controller.doSomething()
+                expect(controller.myLabel.text).to(equal("1"))
+            }
         }
     }
     
